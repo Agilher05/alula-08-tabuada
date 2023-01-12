@@ -20,23 +20,22 @@ body{
 
 }
 
-.titulo{
- text-decoration: underline;   
-font-size: 20px;
-text-align: center;
-background-color: darkgrey
-border-bottom:blanchedalmond
+.titulo{  font-size: 20px;
+        text-align: center;
+        background-color: darkgray;
+        border-bottom: solid 2px rgb(7, 6, 6);
 }
 
 p{padding-left: 10px;}
 
 div {
-    background-color: darkgrey;
-    border: solid 2px black;
-    margin: 1px;
-    width:16%;
-    float: left;
-    padding: 10px;
+        background-color: darkgray;
+        border: solid 2px black;
+        margin: 1px;
+        width: 16%;
+        float: left;
+        padding: 10px;
+    
 
 }
 
@@ -49,7 +48,7 @@ div {
 for (let numeros = 0; numeros <= 10; numeros++) {
     document.write('<div>')
         document.write('<p class="titulo"> Numero </p>')
-      
+       
 
   for (let tabuada = 0; tabuada < 10; tabuada++) {
     document.write('<p>' + numeros + 'x' + tabuada + '=' + (numeros*tabuada) + '</p>')
