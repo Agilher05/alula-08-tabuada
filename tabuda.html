@@ -2,30 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="Alan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuda</title>
-   
+    <title>Tabuada</title>
 </head>
+
 <style>
-    
+h1{
+    text-align: center;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    background-color: darkgrey;
+    margin-top: 30px;
+
+}
+
+.titulo{
+ text-decoration: underline;   
+font-size: 20px;
+text-align: center;
+background-color: darkgrey
+border-bottom:blanchedalmond
+}
+
+p{padding-left: 10px;}
+
+div {
+    background-color: darkgrey;
+    border: solid 2px black;
+    margin: 1px;
+    width:16%;
+    float: left;
+    padding: 10px;
+
+}
+
+
+
 </style>
 
 <script>
-    
-    document.write('<h1>Tabuda</h1>')
+    document.write('<h1>Tabuada</h1>')
+for (let numeros = 0; numeros <= 10; numeros++) {
+    document.write('<div>')
+        document.write('<p class="titulo"> Numero </p>')
+      
 
-    
-for (let Tabuda = 0; Tabuda < 10; Tabuda) {
-    document(<p> + linhas + 'x' + Tabuda + = +  (linhas*Tabuda)  + </p>)
+  for (let tabuada = 0; tabuada < 10; tabuada++) {
+    document.write('<p>' + numeros + 'x' + tabuada + '=' + (numeros*tabuada) + '</p>')
+  }document.write('</div>')
 }
-  
-        
-    
 </script>
-
 <body>
-   
+    
 </body>
-
 </html>
